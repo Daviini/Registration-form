@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-image: url(bg-intro-desktop.png);
+  background: cover;
+  background-color: hsl(0, 100%, 74%);
+}
+main {
+  display: flex;
+  width: 80%;
+}
+.text-content, .form-content {
+  width: 50%;
+}
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /*Pushed it vertically to the center and I thought it was supposed to be horizontal. okay I think its because we set flex-direction to column */
+  padding: 20px 20px 20px 5px;
+}
+.text-content h1 {
+  color: white;
+  width: 77%;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.text-content p {
+  color: white;
+}
+.form-content {
+  padding-left: 75px;
+}
+.form-content .form-text {
+  width: 85%;
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+  padding: 13px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 9px rgba(0, 0, 0, 0.4);
+  margin-bottom: 25px;
+}
+.form-content form {
+  background-color: white;
+  width: 85%;
+  padding: 30px 29px ;
+  border-radius: 5px;
+  box-shadow: 0 9px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+input, button {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  
+}
+input {
+  margin-bottom: 20px;
+  height: 47px;
+}
+button {
+  background-color: hsl(154, 59%, 51%);
+  border-color: hsl(154, 59%, 51%);
+  box-shadow: 0 2px rgb(31, 131, 88);
+  padding: 11px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.7;
+}
+.form-text2 {
+  font-size: 11px;
+  color: grey;
+}
+a {
+  color: red;
+}
+@media (max-width: 1300px) {
+  main {
+    width: 84%;
+  }
+}
+@media (max-width: 1200px) {
+  main {
+    width: 87%;
+  }
+}
+@media (max-width: 1100px) {
+  main {
+    width: 91%;
+  }
+}
+@media (max-width: 1025px) {
+  main {
+    width: 94%;
+  }
+  .form-content {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 940px) {
+  main {
+    width: 96%;
+  }
+  .text-content {
+    padding: 20px 20px 20px 15px;
+  }
+  .text-content h1 {
+    width: 80%;
+    font-size: 33px;
+  }
+  .form-content {
+    padding-left: 45px;
+  }
+}
+@media (max-width: 911px) {
+  .form-content {
+    padding-left: 40px;
+  }
+  .text-content {
+    padding: 20px 10px 20px 12px;
+  }
+}
+@media (max-width: 897px) {
+  .form-content {
+    padding-left: 35px;
+  }
+}
+@media (max-width: 888px) {
+  .form-content {
+    padding-left: 30px;
+  }
+}
+@media (max-width: 876px) {
+  .form-content {
+    padding-left: 25px;
+  }
+}
+@media (max-width: 866px) {
+  .form-content .form-text,
+  .form-content form {
+    width: 90%;
+  }
+}
+@media (max-width: 822px) {
+  .form-content .form-text,
+  .form-content form {
+    width: 92%;
+  }
+}
+@media (max-width: 805px) {
+  .form-content .form-text,
+  .form-content form {
+    width: 94%;
+  }
+}
+@media (max-width: 788px) {
+  .form-content .form-text,
+  .form-content form {
+    width: 96%;
+  }
+}
+@media (max-width: 775px) {
+  .text-content h1 {
+    width: 85%;
+    font-size: 28px;
+  }
+  .form-content .form-text,
+  .form-content form {
+    width: 96%;
+  }
+  .form-content {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 762px) {
+  .form-content {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 705px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  main {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .text-content, .form-content {
+    width: 100%;
+  }
+  .text-content h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .text-content p {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 325px) {
+  .form-content form {
+    padding: 30px 20px;
+  }
+}
