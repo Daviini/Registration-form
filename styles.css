@@ -216,9 +216,13 @@ a {
     text-align: center;
     margin-bottom: 35px;
   }
+  .form-content form {
+    margin-bottom: 40px;
+  }
 }
 @media (max-width: 325px) {
   .form-content form {
     padding: 30px 20px;
+    margin-bottom: 45px;
   }
 }
