@@ -72,6 +72,11 @@ input {
   padding-left: 18px;
   font-weight: 670;
   font-size: 13px;
+  color: hsl(249, 10%, 26%);
+  outline: none;
+}
+input:focus {
+  border: 2px solid hsl(246, 25%, 77%);
 }
 button {
   background-color: hsl(154, 59%, 51%);
