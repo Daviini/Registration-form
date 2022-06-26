@@ -70,6 +70,8 @@ input {
   margin-bottom: 20px;
   height: 47px;
   padding-left: 18px;
+  font-weight: 670;
+  font-size: 13px;
 }
 button {
   background-color: hsl(154, 59%, 51%);
